@@ -1,0 +1,14 @@
+*,
+ *::before,
+ *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Monsterrat, sans-serif;
+    font-size: 13px;
+    color: #515076;
+    margin: 0;
+    padding: 0; 
+}
+

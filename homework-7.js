@@ -6,10 +6,8 @@ function showWeather(city, temperature) {
 
 showWeather("Москве", -15);
 
-// Переменная хранит скорость света в метрах в секунду (м/с)
 const SPEED_OF_LIGHT = 299792458;
 
-// Функция для проверки скорости
 function checkSpeed(speed) {
   if (speed > SPEED_OF_LIGHT) {
     console.log("Сверхсветовая скорость");
@@ -20,14 +18,12 @@ function checkSpeed(speed) {
   }
 }
 
-// Примеры использования функции для проверки работы:
-checkSpeed(1000); // Выведет: Субсветовая скорость (например, самолет)
-checkSpeed(300000000); // Выведет: Сверхсветовая скорость (быстрее света)
-checkSpeed(299792458); // Выведет: Скорость света (ровно c)
+checkSpeed(1000);
+checkSpeed(300000000);
+checkSpeed(299792458);
 
-// Переменные с товаром и его ценой
 const productName = "Смартфон";
-const productPrice = 500; // Цена в долларах ($)
+const productPrice = 500;
 
 // Функция для попытки покупки товара
 function buyProduct(budget) {
